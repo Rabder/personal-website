@@ -3,6 +3,8 @@
     margin-top: 200px; /*Spacing between page content and top bar*/
 }
 
+@import url('http://fonts.cdnfonts.com/css/metal-gear-solid');
+
 
 .header_s {
     display: flex;
