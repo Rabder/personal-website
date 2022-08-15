@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Espionage';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Espionage'), url('https://fonts.cdnfonts.com/s/6590/Tactical Espionage Action.woff') format('woff');
+}
+@font-face {
+    font-family: 'Metal Gear';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Metal Gear'), url('https://fonts.cdnfonts.com/s/6590/METAG___.woff') format('woff');
+}
+@font-face {
+    font-family: 'MANIFESTO';
+    font-style: normal;
+    font-weight: 400;
+    src: local('MANIFESTO'), url('https://fonts.cdnfonts.com/s/16237/MANIFESTO.woff') format('woff');
+}
