@@ -177,6 +177,10 @@
     margin-bottom: 5%;
 }
 
+.about{
+  min-width: 1000px;
+}
+
 .subr
 {
     text-align: left;
@@ -241,6 +245,10 @@
     flex-wrap: wrap;
     vertical-align: middle;
     margin-bottom: 5%;
+}
+
+.projects{
+  min-width: 1000px;
 }
 
 #primg1
