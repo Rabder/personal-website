@@ -1,2 +1,2 @@
 # personal-website
- pls hire me
+Personal website that shows information about me, my projects and my contact information.
