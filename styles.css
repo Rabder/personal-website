@@ -355,6 +355,8 @@ a {
   border-radius: 10px;
 }
 
+
+
 @media screen and (min-width: 850px) {
   .cont_sp{
     display: none;
@@ -394,6 +396,7 @@ a {
 
   .navbar-links li{
     text-align: center;
+    font-size: 1.5rem;
   }
 
   .navbar-links.active {
@@ -401,5 +404,9 @@ a {
   }
   .cont_sp{
     display: flex;
+  }
+
+  .icon{
+    display: none;
   }
 }
