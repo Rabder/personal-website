@@ -38,7 +38,7 @@
 .navbar-links a,
 .contact,
 .overlay__content a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Markofontina', sans-serif;
   font-size: 125%;
   font-weight: 400;
   color: #edf0f1;
@@ -67,8 +67,8 @@
   .contact {
     padding: 9px 25px;
     background-color: rgb(183,180,77);
-    border: none;
-    border-radius: 50px;
+    border: black;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease 0s;
   }
@@ -253,6 +253,7 @@
     padding-bottom: 5%;
 }
 
+
 .modall-cont.show
 {
     pointer-events: auto;
@@ -329,7 +330,7 @@ a {
 
 #vid.show
 {
-    mute=1;
+    mute: 1;
 }
 
 #vid.show
@@ -357,14 +358,14 @@ a {
 
 
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 950px) {
   .cont_sp{
     display: none;
   }
   
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
   .burger{
     display: flex;
   }
