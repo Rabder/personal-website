@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
         <meta name="description" content="Can people actually see this?">
         <title>
-            Rabder | CSE Freshman | San Diego, CA
+            Rabder | CSE Sophomore | San Diego, CA
         </title>
         <link href="styles.css" rel="stylesheet">
         <link href="fonts.css" rel="stylesheet">
@@ -51,13 +51,13 @@
                                         <img class="icon" src="./assets/linkedin2.png" style="height:30px;width:30px">
                                         <a target="_blank" href="https://www.linkedin.com/in/rashid-abder-rahim-urbina-23ba88201"> Linkedin</a>
                                     </li>
-                                    <li>2
+                                    <li>
                                         <img class="icon" src="./assets/github.png" style="height:30px;width:30px">
                                         <a href="https://github.com/Rabder" target="_blank" >Github</a>
                                     </li>
                                     <li>
                                         <img class="icon" src="./assets/resume.png" style="height:30px;width:30px">
-                                        <a href="./assets/Resume -  FA2023.pdf" target="_blank">Resumé</a>
+                                        <a href="./assets/Resume -  Winter 2024.pdf" target="_blank">Resumé</a>
                                     </li>
                                     <li>
                                         <a class="cont_sp" href="mailto:rabder24@gmail.com" target="_blank">Contact</a>
@@ -82,45 +82,110 @@
                     <div class="subr">
                         <div class="infobox">
                             <h1 id="meme">I am Rashid</h1>
-                            <h2>I'm a freshman at UC San Diego majoring in Computer Engineering.</h2>
-                            <h2>I have basic knowledge of Python for software development and C/C++ for embedded projects</h2>
+                            <h2>I'm a Sophomore at UC San Diego majoring in Computer Engineering.</h2>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="projects">
+            <div class="projects1">
                 <div class="titlebox">
                     <div class="title">
-                        <h2><b>Projects</b></h2>
+                        <h2><b>2023</b></h2>
                     </div>
                 </div>
                 <div class="procontainer">
                     
-                    <button id="primg1" data-target="#modal1">
-                        <img src="./assets/IMG_1121.png"
+                    <button class id="primg1" data-target="#modal0">
+                        <div class="hoverctn">
+                        <h1>RFID Checklist</h1>
+                    </div>
+                        <img src="./assets/internship_photo.png"
                              height="225px"
-                             width="225px">
+                             width="400px">
+                    
                     </button>
+                    
 
-                    <div class="modall-cont" id="modal1">
+                    <div class="modall-cont" id="modal0">
                         <div class="modall">
-                            <h1>Arduino 4-in-1</h1>
+                            <h1>RFID Checklist</h1>
                             <p>
-                                Electronics project made with an Arduino Mega. It can work as a calculator, an integer to binary convertor, it can showcase the weather and a piano that can be played using the keypad. All of this is displayed through a 20x4 LCD display and a 16x2 LCD display.
+                                Arduino prototype that incorporates a MFRC522 RFID reader and an ILI9341 touchscreen to allow users to scan NFC tags attached to their objects. Implemented a state machine design to manage the different states and transitions of the device (main states include scanning tags, deleting tags and checklist state).
                             </p>
-                            <a id="conturl" href="https://github.com/Rabder/Arduino-4-in-1" target="_blank">Project on GitHub</a>
-                            <iframe id="vid" width="500" height="315" src="https://www.youtube.com/embed/NSrWsdJfxo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <a id="conturl" href="https://github.com/Rabder/Arduino-4-in-1" target="_blank">Presentation</a>
+                            <iframe id="vid" width="500" height="315" src="https://www.youtube.com/embed/5sDlqQiCnFo?si=tpG7Vfjdj55EQwzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <button class="btn close-modal">&times;</button>
                         </div>
                     </div>
 
-                    <button id="primg1" data-target="#modal7">
+                    <button id="primg1" data-target="#modal1">
+                        <div class="hoverctn">
+                        <h1>Smart Water Lid</h1>
+                    </div>
+                        <img src="./assets/ece196.png"
+                             height="225px"
+                             width="400px">
+                        
+                    </button>
+
+                    <div class="modall-cont" id="modal1">
+                        <div class="modall">
+                            <h1>Smart Water Lid</h1>
+                            <p>
+                                Collaborated with two other students in designing and manufacturing a prototype for a bottle lid that can track water consumption. Key components included the Seeed Studio XIAO nRF52840 and a VL53L4CD Time-of-Flight sensor.  Debugged the source code and troubleshot the electronic components of the lid during the prototyping stage.
+                            </p>
+                            <a id="conturl" href="https://sites.google.com/ucsd.edu/ece196-sp23-team1-smart-lid/overview" target="_blank">Project website</a>
+                            
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+
+                    <button id="primg1" data-target="#modal2">
+                    <div class="hoverctn">
+                        <h1>FM Radio + Stereo Amplifier</h1>
+                    </div>
+                        <img src="./assets/fmradio.png"
+                             height="225px"
+                             width="400px">
+
+                    </button>
+
+                    <div class="modall-cont" id="modal2">
+                        <div class="modall">
+                            <h1>FM Radio + Stereo Amplifier</h1>
+                            <p>
+                                FM radio receiver which incorporates an LC resonator (variable capacitor to adjust resonant frequency), an antenna, a stereo amplifier with two LM386 ICs and a pair of woofers. Designed the schematics and PCB of the amplifier with Altium Designer.
+                            </p>
+                            <a id="conturl" href="./assets/fmradio.pdf" target="_blank">Presentation</a>
+                            
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="projects2">
+                <div class="titlebox">
+                    <div class="title">
+                        <h2><b>2022</b></h2>
+                    </div>
+                </div>
+
+
+                <div class="procontainer">
+                    
+                    
+
+                    <button class="imgbtn" id="primg1" data-target="#modal3">
+                        <div class="hoverctn_s">
+                        <h1>BT Car</h1>
+                    </div>
                         <img src="./assets/arduino_car.jpg"
                              height="225px"
                              width="225px">
                     </button>
 
-                    <div class="modall-cont" id="modal7">
+                    <div class="modall-cont" id="modal3">
                         <div class="modall">
                             <h1>Bluetooth RC Car</h1>
                             <p>
@@ -132,33 +197,17 @@
                         </div>
                     </div>
 
-                    
 
-                    <button id="primg1" data-target="#modal2">
-                        <img src="./assets/covidlist.png"
-                             height="225px"
-                             width="225px">
-                    </button>
-
-                    <div class="modall-cont" id="modal2">
-                        <div class="modall">
-                            <h1>Covid list</h1>
-                            <p>
-                                Using Python, this project creates an attention priority list of every region in Peru based on the impact Covid-19 had on the region. Taking into consideration the number of cases, mortality rate, medical centers available and more, each region gets a score that measures how much it has been affected by the pandemic.
-
-                            </p>
-                            <a id="conturl" href="https://github.com/Rabder/covidprioritylist2021" target="_blank">Project on GitHub</a>
-                            <button class="btn close-modal">&times;</button>
-                        </div>
+                    <button id="primg1" data-target="#modal4">
+                        <div class="hoverctn_s">
+                        <h1>Calorie Tracker</h1>
                     </div>
-
-                    <button id="primg1" data-target="#modal3">
                         <img src="./assets/Screenshot 2022-04-22 145452.png"
                              height="225px"
                              width="225px">
                     </button>
 
-                    <div class="modall-cont" id="modal3">
+                    <div class="modall-cont" id="modal4">
                         <div class="modall">
                             <h1>Calorie tracker</h1>
                             <p>
@@ -169,71 +218,19 @@
                         </div>
                     </div>
 
-                    <button id="primg1" data-target="#modal4">
-                        <img src="./assets/pandemic.png"
-                             height="225px"
-                             width="225px">
-                    </button>
+                
 
-                    <div class="modall-cont" id="modal4">
-                        <div class="modall">
-                            <h1>Virus spread simulator</h1>
-                            <p>
-                                A Scratch project that simulates the spread of a virus in three different scenarios: no quarantine, quarantine and social distancing. Inspired by an article in the Washington Post.
-
-                            </p>
-                            <a id="conturl" href="https://github.com/Rabder/Virus-spread-simulation" target="_blank">Project on GitHub</a>
-                            <iframe width="500" height="315" src="https://www.youtube.com/embed/BFChLx38yvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn close-modal">&times;</button>
-                        </div>
-                    </div>
 
                     <button id="primg1" data-target="#modal5">
-                        <img src="./assets/shooting range.png"
-                             height="225px"
-                             width="225px">
-                    </button>
-
-                    <div class="modall-cont" id="modal5">
-                        <div class="modall">
-                            <h1>Shooting range</h1>
-                            <p>
-                                A shooting game made in Scratch. The game showcases how many targets have been hit/missed and your shooting accuracy.
-
-                            </p>
-                            <a id="conturl" href="https://github.com/Rabder/Shooting-range" target="_blank">Project on GitHub</a>
-                            <iframe width="500" height="315" src="https://www.youtube.com/embed/7yezKLPoOsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn close-modal">&times;</button>
-                        </div>
+                        <div class="hoverctn_s">
+                        <h1>Derivative Calculator App</h1>
                     </div>
-
-                    <button id="primg1" data-target="#modal6">
-                        <img src="./assets/timer.png"
-                             height="225px"
-                             width="225px">
-                    </button>
-           
- 
-
-                    <div class="modall-cont" id="modal6">
-                        <div class="modall">
-                            <h1>Arduino Timer & Stopwatch</h1>
-                            <p>
-                                Electronics project made with an Arduino Uno. It works as a timer (includes pre-set Pomodoro timers) and as a stopwatch. Both can be started and stopped at any time by the user. 
-                            </p>
-                            <a id="conturl" href="https://github.com/Rabder/Arduino-Timer-Stopwatch" target="_blank">Project on GitHub</a>
-                            <iframe id="vid" width="500" height="315" src="https://www.youtube.com/embed/YHlRh7bP5_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button class="btn close-modal">&times;</button>
-                        </div>
-                    </div>
-
-                    <button id="primg1" data-target="#modal8">
                         <img src="./assets/derivativeapp.png"
                              height="225px"
                              width="225px">
                     </button>
 
-                    <div class="modall-cont" id="modal8">
+                    <div class="modall-cont" id="modal5">
                         <div class="modall">
                             <h1>Derivative calculator</h1>
                             <p>
@@ -245,13 +242,16 @@
                         </div>
                     </div>
 
-                    <button id="primg1" data-target="#modal9">
+                    <button id="primg1" data-target="#modal6">
+                        <div class="hoverctn_s">
+                        <h1>Fitness Tracker</h1>
+                    </div>
                         <img src="./assets/fitnesstrracker.png"
                              height="225px"
                              width="225px">
                     </button>
 
-                    <div class="modall-cont" id="modal9">
+                    <div class="modall-cont" id="modal6">
                         <div class="modall">
                             <h1>Fitness Tracker</h1>
                             <p>
@@ -264,7 +264,140 @@
                     </div>
                     
                 </div>
+            </div>
 
+
+            <div class="projects3">
+                <div class="titlebox">
+                    <div class="title">
+                        <h2><b>202 1</b></h2>
+                    </div>
+                </div>
+                <div class="procontainer">
+                    <button id="primg1" data-target="#modal7">
+                        <div class="hoverctn_s">
+                        <h1>4-in-1 Project</h1>
+                    </div>
+                        <img src="./assets/IMG_1121.png"
+                             height="225px"
+                             width="225px">
+                    </button>
+
+                    <div class="modall-cont" id="modal7">
+                        <div class="modall">
+                            <h1>Arduino 4-in-1</h1>
+                            <p>
+                                Electronics project made with an Arduino Mega. It can work as a calculator, an integer to binary convertor, it can showcase the weather and a piano that can be played using the keypad. All of this is displayed through a 20x4 LCD display and a 16x2 LCD display.
+                            </p>
+                            <a id="conturl" href="https://github.com/Rabder/Arduino-4-in-1" target="_blank">Project on GitHub</a>
+                            <iframe id="vid" width="500" height="315" src="https://www.youtube.com/embed/NSrWsdJfxo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+
+                    <button id="primg1" data-target="#modal8">
+                        <div class="hoverctn_s">
+                        <h1>Covid Priority List</h1>
+                    </div>
+                        <img src="./assets/covidlist.png"
+                             height="225px"
+                             width="225px">
+                    </button>
+
+                    <div class="modall-cont" id="modal8">
+                        <div class="modall">
+                            <h1>Covid Priority List</h1>
+                            <p>
+                                Using Python, this project creates an attention priority list of every region in Peru based on the impact Covid-19 had on the region. Taking into consideration the number of cases, mortality rate, medical centers available and more, each region gets a score that measures how much it has been affected by the pandemic.
+
+                            </p>
+                            <a id="conturl" href="https://github.com/Rabder/covidprioritylist2021" target="_blank">Project on GitHub</a>
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+
+                    <button id="primg1" data-target="#modal9">
+                        <div class="hoverctn_s">
+                        <h1>Virus Spread Simulator</h1>
+                    </div>
+                        <img src="./assets/pandemic.png"
+                             height="225px"
+                             width="225px">
+                    </button>
+
+                    <div class="modall-cont" id="modal9">
+                        <div class="modall">
+                            <h1>Virus spread simulator</h1>
+                            <p>
+                                A Scratch project that simulates the spread of a virus in three different scenarios: no quarantine, quarantine and social distancing. Inspired by an article in the Washington Post.
+
+                            </p>
+                            <a id="conturl" href="https://github.com/Rabder/Virus-spread-simulation" target="_blank">Project on GitHub</a>
+                            <iframe width="500" height="315" src="https://www.youtube.com/embed/BFChLx38yvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+
+                    
+                    <button id="primg1" data-target="#modal10">
+                        <div class="hoverctn_s">
+                        <h1>Timer & Stopwatch</h1>
+                    </div>
+                        <img src="./assets/timer.png"
+                             height="225px"
+                             width="225px">
+                    </button>
+           
+ 
+
+                    <div class="modall-cont" id="modal10">
+                        <div class="modall">
+                            <h1>Arduino Timer & Stopwatch</h1>
+                            <p>
+                                Electronics project made with an Arduino Uno. It works as a timer (includes pre-set Pomodoro timers) and as a stopwatch. Both can be started and stopped at any time by the user. 
+                            </p>
+                            <a id="conturl" href="https://github.com/Rabder/Arduino-Timer-Stopwatch" target="_blank">Project on GitHub</a>
+                            <iframe id="vid" width="500" height="315" src="https://www.youtube.com/embed/YHlRh7bP5_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            
+            <div class="projects3">
+                <div class="titlebox">
+                    <div class="title">
+                        <h2><b>2020</b></h2>
+                    </div>
+                </div>
+                <div class="procontainer">
+                    
+                    <button id="primg1" data-target="#modal11">
+                        <div class="hoverctn_s">
+                        <h1>Shooting Range Game</h1>
+                    </div>
+                        <img src="./assets/shooting range.png"
+                             height="225px"
+                             width="225px">
+                    </button>
+
+                    <div class="modall-cont" id="modal11">
+                        <div class="modall">
+                            <h1>Shooting range</h1>
+                            <p>
+                                A shooting game made in Scratch. The game showcases how many targets have been hit/missed and your shooting accuracy.
+
+                            </p>
+                            <a id="conturl" href="https://github.com/Rabder/Shooting-range" target="_blank">Project on GitHub</a>
+                            <iframe width="500" height="315" src="https://www.youtube.com/embed/7yezKLPoOsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                 <script>
 
@@ -284,6 +417,7 @@
                       });
                     });
 
+
                     closem.forEach((btn) => {
                     btn.addEventListener("click", () => {
                         const modal = btn.closest(".modall-cont");
@@ -293,7 +427,7 @@
 
                     
                 </script>
-            </div>
+
 
         </main>
         <footer>

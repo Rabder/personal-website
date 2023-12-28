@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Accordion Menu | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Accordion Heading One -->
+        <div class="parent-tab tab-1">
+      <input type="radio" name="tab" id="tab-1">
+      <label for="tab-1" class="tab-1">
+        <span>Accordion Heading Three</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <!-- Sub Heading One -->
+        <div class="child-tab">
+          <input type="checkbox" name="sub-tab" id="tab-6">
+          <label for="tab-6">
+            <span>Sub Heading One</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="sub-content">
+            <button id="primg1" data-target="#modal1">
+            <img src="./assets/IMG_1121.png"
+            height="225px"
+            width="225px">
+        </button>
+
+        <div class="modall-cont" id="modal1">
+            <div class="modall">
+                <h1>Arduino 4-in-1</h1>
+                    <p>Electronics project made with an Arduino Mega. It can work as a calculator, an integer to binary convertor, it can showcase the weather and a piano that can be played using the keypad. All of this is displayed through a 20x4 LCD display and a 16x2 LCD display.</p>
+                            <a id="conturl" href="https://github.com/Rabder/Arduino-4-in-1" target="_blank">Project on GitHub</a>
+                            <iframe id="vid" width="500" height="315" src="https://www.youtube.com/embed/NSrWsdJfxo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="btn close-modal">&times;</button>
+                        </div>
+                    </div>
+          </div>
+        </div>
+        <!-- Sub Heading Two -->
+        <div class="child-tab">
+          <input type="checkbox" name="sub-tab" id="tab-7">
+          <label for="tab-7">
+            <span>Sub Heading Two</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="sub-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Heading Two -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-2">
+      <label for="tab-2">
+        <span>Accordion Heading Two</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        
+      </div>
+    </div>
+
+    <!-- Accordion Heading Three -->
+    <div class="parent-tab tab-3">
+      <input type="radio" name="tab" id="tab-3">
+      <label for="tab-3" class="tab-3">
+        <span>Accordion Heading Three</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <!-- Sub Heading One -->
+        <div class="child-tab">
+          <input type="checkbox" name="sub-tab" id="tab-4">
+          <label for="tab-4">
+            <span>Sub Heading One</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="sub-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+          </div>
+        </div>
+        <!-- Sub Heading Two -->
+        <div class="child-tab">
+          <input type="checkbox" name="sub-tab" id="tab-5">
+          <label for="tab-5">
+            <span>Sub Heading Two</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="sub-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Heading Four -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-6">
+      <label for="tab-6">
+        <span>Accordion Heading Four</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+      </div>
+    </div>
+  </div>
+
+                <script>
+
+                    const burger = document.getElementsByClassName("burger")[0];
+                    const nav_links = document.getElementsByClassName("navbar-links")[0];
+
+                    burger.addEventListener('click', () => {
+                        nav_links.classList.toggle('active')
+                    });
+
+                    const openm = document.querySelectorAll('[data-target]');
+                    const closem = document.querySelectorAll(".close-modal");
+
+                    openm.forEach((btn1) => {
+                      btn1.addEventListener("click", () => {
+                        document.querySelector(btn1.dataset.target).classList.add("show");
+                      });
+                    });
+
+                    closem.forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        const modal = btn.closest(".modall-cont");
+                        modal.classList.remove("show");
+                    });
+                    });
+
+                    
+                </script>
+
+</body>
+</html>
+
+
